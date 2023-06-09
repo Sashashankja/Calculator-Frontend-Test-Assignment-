@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins'; sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #b4b6b4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    background: rgb(240, 241, 241);
+    padding: 20px;
+    border: 20px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(240, 220, 220, 0), -5px -5px 15px rgba(0, 0, 0, 0.884);
+
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(240, 220, 220, 0), -5px -5px 15px rgba(0, 0, 0, 0.884);
+    background: transparent;
+    font-size: 20px;
+    color: #080808;
+    cursor: pointer;
+    margin: 10px;
+}
+form input-output {
+    font-size: 24px;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0px;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: -8px -8px 15px rgba(240, 220, 220, 0), -5px -5px 15px rgba(0, 0, 0, 0.884);
+}
+
+form input.operator{
+    color: rgb(204, 98, 98);
+}
+form input.btn{
+    color: rgb(204, 98, 98);
+}
+form input.btn btn-danger{
+    color: rgb(204, 98, 98);
+}
